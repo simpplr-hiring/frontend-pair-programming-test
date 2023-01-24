@@ -1,3 +1,15 @@
-# Welcome to the Simpplr frontend architect test
+# Welcome to the Simpplr frontend pair programming test
 
-You will be undertaking a few live coding exercises to showcase your knownledge
+This repo contains a simple CRA setup that we'll be using in the test.  
+
+Before the call with the interviewer, please ensure the following is done:
+
+1. Clone this repo on your machine
+2. Run `yarn` to install the dependencies - don't use `npm`.
+3. Run `yarn start` and `yarn test` to ensure everything works.
+4. Have a quick look through the repo to make sure you're familiar with the
+   directory structure.
+4. Ensure you have a [Figma](https://www.figma.com/) account setup and you're
+   signed in. A personal account is fine.
+   
+Good luck!
