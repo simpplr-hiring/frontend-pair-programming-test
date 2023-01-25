@@ -17,16 +17,11 @@ export const App = () => {
 
       <div className={styles.container}>
         <div className={styles.wrapper}>
-          <h1 className={styles.title}>Frontend pair programming test</h1>
-
-          <div className={styles.content}>
+          <main className={styles.content}>
             <aside className={styles.aside}>
               <Sidebar />
             </aside>
-            <main>
-              <p className={styles.text}>Good luck!</p>
-            </main>
-          </div>
+          </main>
         </div>
       </div>
     </div>
