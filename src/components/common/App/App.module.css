@@ -14,13 +14,37 @@
   text-align: left;
 }
 
-.content {
+.container {
+  max-width: 1260px;
+
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
 }
 
-@media screen and (min-width: 768px) {
-  .content {
-    width: 768px;
-  }
+.wrapper {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 30px;
+  width: 100%;
+}
+
+.title {
+  margin: 0 0 30px;
+}
+
+.text {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.aside {
+  flex: 0 0 300px;
+
+  border-right: 1px solid #e5e5e5;
+  padding-right: 20px;
 }
